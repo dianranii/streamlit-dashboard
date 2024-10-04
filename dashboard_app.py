@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import openpyxl
+
 from datetime import datetime
 
 final_orders_df = pd.read_excel("final_order_data.xlsx")  
